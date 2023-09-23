@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alata', sans-serif;
+}
+header{
+    background-color: var(--rosa-escuro);
+
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around   ;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logo h1{
+   color: var(--rosa-claro);
+   margin-left: 15px;
+}
+.logo img{
+   border-radius: 100%;
+   margin-left: 2vw;
+}
+.logo-horizontal{
+    width: 90px;
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    justify-content:center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0px 15px;
+    text-shadow: 0px 4px 4px var(--vermelho-teste);
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: var(--rosa-medio);
+    font-weight: 400;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width: 730px){
+    .nav-bar{
+        justify-content: space-between;
+    }
+    .nav-item{
+        display: none;
+    }
+    .login-button{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.8vw;
+        margin-right: 2.8vw;
+    }
+    .mobile-menu-icon button{
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding: 0.5rem;
+    }
+    .mobile-menu .login-button{
+        display: block;
+        padding: 0.5rem 1rem;
+    }
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+}
+.open{
+    display: block;
+}
