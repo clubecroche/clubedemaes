@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=fasthand&family=playfair+display:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="css/style.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Clube de mães</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="img/logo e style da marca/logo-horizontal.png" alt="logo-horizontal" class="logo-horizontal">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="https://forms.gle/TYN1wSVwCgfjhGEL8" class="nav-link">INSCREVA-SE!</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/icones/icons8-cardápio.svg"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="https://forms.gle/TYN1wSVwCgfjhGEL8" class="nav-link">INSCREVA-SE!</a></li>
+            </ul>
+        </div>
+    </header>
+    <script src="js/script.js"></script>
+
+
+    <section class="sobre-nos">
+            <section class="titulo-sobre">
+                <div class="tudo">
+                    <img src="./img/pexel/ursinho.jpg" alt="Sua Imagem" class="img-fundo-titulo">
+                    <div class="texto-sobre-imagem">
+                        <p class="texto-imagem">BEM-VINDO AO CLUBE DE MÃES</p>
+                    </div>
+                </div>
+            </section>
+            <section class="sobre-projeto">
+                <div class="titulo-descrição">
+                    <h2 class="h2-slide">Um pouco de nós</h2>
+                </div>
+                <div class="descrição">
+                        <p class="p-finalidade">A ideia do clube de crochê é montar uma comunidade de pessoas interessadas em crochê, que possam compartilhar suas paixões, ideias e projetos. Além disso, reconhecemos os benefícios terapêuticos do crochê para o bem-estar mental.</p>
+                        <h2 class="h2-objetivo">Temos como objetivo promover essa arte dos crochês, trazer novos conhecimentos, instigar a curiosidade e o melhor, o convívio e troca de experiências.</h2>
+                </div> 
+            </section>
+            <section class="slide">
+                <h3 class="h3-slide">Nossas alunas(os) e suas produções</h3>
+                <div class="wrapper">
+                    <div class="slide-wrapper" data-slide="wrapper">
+                        <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+                        <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+                        <div class="slide-list" data-slide="list">
+        
+                            <div class="slide-item" data-slide="item" data-index="0">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/05.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="1">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/06.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="2">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/08.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="3">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/09.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="4">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/10.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="5">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/12.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="6">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/13.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="7">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/14.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="7">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/15.jpg"/>
+                                </div>
+                            </div>                    <div class="slide-item" data-slide="item" data-index="7">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/16.jpg"/>
+                                </div>
+                            </div>
+                            <div class="slide-item" data-slide="item" data-index="7">
+                                <div class="slide-content">
+                                    <img class="slide-image" src="img/clube/17.jpg"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-controls" data-slide="controls-wrapper">
+                        </div>
+                    </div>
+                </div>
+                <script src="js/slides.js"></script>
+                <script>
+                    initSlider({
+                        autoPlay: true,
+                        startAtIndex: 0,
+                        timeInterval: 3000
+                    })
+                </script>
+            </section>
+            <section class="Endereço">
+                <div><p class="escola">Luarlindo Dos Reis Borges, E E-Ef</p></div>
+                <div><p class="localização">Endereço: R. Antônio de Andrade, 87 - Maria Antonieta, Pinhais - PR, 83331-150</p></div>
+            </section>
+    </section>
+</body>
+</html>
